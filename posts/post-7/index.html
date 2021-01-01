@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tags</title>
+    <title>How to test dark mode?</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -23,8 +23,9 @@
 <link rel="stylesheet" href="/assets/css/style.css" />
 
     
-    <link rel="stylesheet" href="/assets/css/list.css">
-    <link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css" />
+<link rel="stylesheet" href="/assets/css/single.css" />
+<link rel="stylesheet" href="/assets/css/navigators/sidebar.css">
 
 
     
@@ -48,7 +49,7 @@ if (!doNotTrack) {
     <div class="container-fluid main-container">
       
       
-    <nav class="navbar navbar-expand-xl top-navbar final-navbar">
+<nav class="navbar navbar-expand-xl top-navbar final-navbar">
   <div class="container">
     
     
@@ -107,18 +108,95 @@ if (!doNotTrack) {
 
       
       
-<section class="content-section" id="content-section">
-  <div class="content container-fluid" id="content">
-    <div class="container-fluid post-card-holder" id="post-card-holder">
-      
-      
-    </div>
-    <div class="paginator">
-      
+
+<section class="content-section container-fluid" id="content-section">
+    <div class="content">
+      <div class="container-fluid p-1 read-area">
+        
+        
 
 
+        
+        <div class="page-content">
+          <div class="author-profile ml-auto align-self-sm-center">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+            <p>March 18, 2018</p>
+          </div>
+
+          <div class="title">
+            <h1>How to test dark mode?</h1>
+          </div>
+
+          <div class="post-content" id="post-content">
+            <p>You can set dark mode as default by setting <code>params.mode</code> to <code>dark</code> in <code>config.toml</code> or set it to <code>auto</code> which will detect based on your OS and switch to dark mode. For more details <a href="https://github.com/knadh/hugo-ink#configuration">refer documentation</a></p>
+<p>Here is how you can switch based on your OS</p>
+<ul>
+<li><a href="https://www.howtogeek.com/440078/how-to-enable-dark-mode-on-your-iphone-and-ipad/">iOS</a></li>
+<li><a href="https://9to5google.com/2018/12/17/android-dark-mode-theme-pie/">Android</a></li>
+<li><a href="https://support.apple.com/en-in/HT208976">macOS</a></li>
+<li><a href="https://www.cnet.com/how-to/turn-on-the-dark-mode-in-windows-10/">Windows 10</a></li>
+</ul>
+
+          </div>
+
+          
+          
+
+          
+          <hr />
+          <div class="row next-prev-navigator">
+
+
+  
+
+  
+
+  
+
+  
+    
+      
+    
+    
+      
+        
+        
+          
+        
+        <div class="col-md-12 next-article">
+          <a href="/posts/post-5/" class="btn btn-outline-info">
+            <span>Next <i class="fas fa-chevron-circle-right"></i></span>
+            <br />
+            <span>Typography</span>
+          </a>
+        </div>
+      
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+
+          <hr />
+          
+          
+        </div>
+      </div>
     </div>
-  </div>
+
 </section>
 
 
@@ -150,7 +228,12 @@ if (!doNotTrack) {
 
     
     
-    <script src="/assets/js/list.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script src="/assets/js/single.js"></script>
+<script>
+  hljs.initHighlightingOnLoad();
+</script>
+
 
   </body>
 </html>

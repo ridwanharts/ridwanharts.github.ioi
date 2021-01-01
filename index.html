@@ -54,20 +54,15 @@ if (!doNotTrack) {
     
     
     
-      
     
     
-      
+    
+    
     
     <a class="navbar-brand" href="https://ridwanharts.githuh.io/">
       <img src="/assets/images/inverted-logo.png" id="logo">ridwanharts</a>
-    <button
-      class="navbar-toggler navbar-dark"
-      id="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#top-nav-items"
-    >
+    <button class="navbar-toggler navbar-light" id="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#top-nav-items">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -76,27 +71,31 @@ if (!doNotTrack) {
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
         </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#recent-posts">Recent Post</a>
-          </li>
         
-        
-          
-            
-          
-        
-        
-          <div class="dropdown-divider" id="top-navbar-divider"></div>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#recent-posts">Recent Post</a>
+        </li>
         
         
         
-          <li class="nav-item">
-            <a class="nav-link" href="https://medium.com/@ridwanharts">Medium</a>
-          </li>
+        
+        
+        
+        
+        <div class="dropdown-divider" id="top-navbar-divider"></div>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" id="blog-link" href="/posts">Posts</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="https://medium.com/@ridwanharts">Medium</a>
+        </li>
         
       </ul>
     </div>
@@ -104,8 +103,7 @@ if (!doNotTrack) {
   
   <img src="/assets/images/main-logo.png" class="d-none" id="main-logo">
   <img src="/assets/images/inverted-logo.png" class="d-none" id="inverted-logo">
-</nav>
-<div class="container-fluid home" id="home">
+</nav><div class="container-fluid home" id="home">
   <div
     class="background container-fluid"
     style="background-image: url('images/2020.jpg');"
@@ -230,6 +228,73 @@ if (!doNotTrack) {
   
   <div class="container">
     <div class="row" id="recent-post-cards">
+      
+        <div class="col-lg-4 col-md-6 pt-2 post-card">
+  <a href="/posts/tg-gh/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/assets/images/default-hero.jpg'
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Telegram Bot for  GitHub Actions</h5>
+        <p class="card-text post-summary"> Telegram Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed. It is free to use and extensively hackable. It also has a good bot support system. The API is also easy to implement and has many wrappers for building bots with the API.
+GitHub Actions GitHub Actions is a CI/CD runtime for your GitHub repository. You can run almost anything from scripts to docker containers.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">April 1, 2020</span>
+        <a href="/posts/tg-gh/" class="float-right btn btn-outline-info btn-sm">Read</a>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-lg-4 col-md-6 pt-2 post-card">
+  <a href="/posts/post-1/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/assets/images/default-hero.jpg'
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Primer: When You Have Too Much to Do</h5>
+        <p class="card-text post-summary"> You have a to-do list that scrolls on for days. You are managing multiple projects, getting lots of email and messages on different messaging systems, managing finances and personal health habits and so much more.
+It all keeps piling up, and it can feel overwhelming.
+How do you keep up with it all? How do you find focus and peace and get stuff accomplished when you have too much on your plate?</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">April 1, 2020</span>
+        <a href="/posts/post-1/" class="float-right btn btn-outline-info btn-sm">Read</a>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-lg-4 col-md-6 pt-2 post-card">
+  <a href="/posts/post-4/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/assets/images/default-hero.jpg'
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Getting Started with Traveling Ultralight</h5>
+        <p class="card-text post-summary"> I’m on a trip at the moment, and a friend who generously let me sleep on his couch looked at my small travel backpack and commented on how little I travel with: “That’s impressive,” he said.
+I was a little surprised, because though I’ve gotten that comment before, it’s become normal for me to travel with just a small bag (10 lbs. or less, usually), and I have friends who travel with even less.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">March 18, 2020</span>
+        <a href="/posts/post-4/" class="float-right btn btn-outline-info btn-sm">Read</a>
+      </div>
+    </div>
+  </a>
+</div>
+
       
     </div>
   </div>
@@ -487,84 +552,19 @@ if (!doNotTrack) {
       
     
 
-    <footer class="container-fluid text-center align-content-center footer pb-2">
-  <div class="container pt-5">
-    <div class="row text-left">
-      <div class="col-md-4 col-sm-12">
-        <h5>Navigation</h5>
-        
-        <ul>
-            
-            <li class="nav-item">
-              <a class="smooth-scroll" href="/#about">About</a>
-            </li>
-            
-            
-            <li class="nav-item">
-              <a class="smooth-scroll" href="/#recent-posts">Recent Posts</a>
-            </li>
-            
-            
-            
-            <li class="nav-item">
-              <a class="smooth-scroll" href="/#projects">Projects</a>
-            </li>
-            
-            
-            
-        </ul>
-        
-
-      </div>
-      <div class="col-md-4 col-sm-12">
-        <h5>Contact Me</h5>
-        <ul>
-          
-          <li><span>Email: </span> <span>ridwanharts@gmail.com</span></li>
-          
-          <li><span>Phone: </span> <span>&#43;62 89 671 718 178</span></li>
-          
-        </ul>
-      </div>
-      
-      <div class="col-md-4 col-sm-12">
-        
-        <p>Stay up to date with email notification</p>
-        <form>
-          <div class="form-group">
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >We'll never share your email with anyone else.</small
-            >
-          </div>
-          <button type="submit" class="btn btn-info">Submit</button>
-        </form>
-      </div>
-      
-    </div>
-  </div>
+    <footer class="container-fluid text-center align-content-center footer pb-1">
+  <div class="container">
+    
   <hr />
   <div class="container">
-    <div class="row text-left">
-      <div class="col-md-4">
-        <a id="theme" href="https://github.com/ridwanharts" target="#">
-          <img src="/assets/images/inverted-logo.png">
-          ridwanharts
-        </a>
+    
+      
+      <div class="text-center">
+        Made with ❤ at Jogja © 2021
+        <a id="hugo" href="https://gohugo.io/"> <br>Powered by Hugo</a>
       </div>
-      <div class="col-md-4 text-center">Made with ❤ at Jogja © 2020 .</div>
-      <div class="col-md-4 text-right">
-        <a id="hugo" href="https://gohugo.io/">Powered by Hugo
-        
-        </a>
-      </div>
-    </div>
+      
+    
   </div>
 </footer>
 
